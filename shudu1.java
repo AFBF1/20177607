@@ -94,7 +94,7 @@ public class shudu1{
 
                 }
                 for(int i = (x / 2) * 2; i < (x / 2 + 1) * 2; i++){
-                    for(int j = (y / 3) * 3; j < (y / 2 + 1) * 3; j++){
+                    for(int j = (y / 3) * 3; j < (y / 3 + 1) * 3; j++){
                         if(arr[i][j] == (char)('0' + k)){
                             return false;
                         }
